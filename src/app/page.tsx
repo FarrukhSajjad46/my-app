@@ -5,7 +5,7 @@ const page: React.FC = () => {
 
   return (
     <div
-      className="bg-cover bg-center h-screen flex justify-center items-center "
+      className="bg-cover bg-center h-screen flex justify-center items-center font-calibri "
       style={{
         backgroundImage: `url('pics/home2.jpg')`,
       }}
