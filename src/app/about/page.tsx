@@ -4,7 +4,7 @@ import welcome from '/Users/Farrukh Sajjad/Desktop/portfolio/my-app/public/pics/
 
 const About: React.FC = () => {
   return (
-    <div className="flex flex-col md:flex-row justify-around items-center md:px-10 py-10">
+    <div className="flex flex-col md:flex-row justify-around items-center md:px-10 py-10 font-calibri">
       {/* Left side image */}
       <div className="lg:w-1/2 md:w-1/2 w-full mb-10 md:mb-0 md:rounded-3xl overflow-hidden flex justify-center">
         <div className="max-w-sm">

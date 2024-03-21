@@ -20,27 +20,27 @@ const ResumeWindow: React.FC<ResumeWindowProps> = ({
   return (
     <div className="flex resume-container">
       <div className="w-64 h-screen window">
-        <div className="p-8 pt-48 text-center headings">
+        <div className="p-16 pt-48 text-center  font-bold fixed  headings">
           <div
             className={`py-2 cursor-pointer relative heading ${selectedTab === 'experience' ? 'active' : ''}`}
             onClick={() => handleTabClick('experience')}
           >
             Experience
-            {selectedTab === 'experience' && <span className="absolute bottom-0 left-0">___</span>}
+            {selectedTab === 'experience' && <span className="absolute bottom-0 hover:text-green-300 left-10">___</span>}
           </div>
           <div
             className={`py-2 cursor-pointer relative heading ${selectedTab === 'skills' ? 'active' : ''}`}
             onClick={() => handleTabClick('skills')}
           >
             Skills
-            {selectedTab === 'skills' && <span className="absolute bottom-0 left-0">___</span>}
+            {selectedTab === 'skills' && <span className="absolute bottom-0 left-10">___</span>}
           </div>
           <div
             className={`py-2 cursor-pointer relative heading ${selectedTab === 'education' ? 'active' : ''}`}
             onClick={() => handleTabClick('education')}
           >
             Education
-            {selectedTab === 'education' && <span className="absolute bottom-0 left-0">___</span>}
+            {selectedTab === 'education' && <span className="absolute bottom-0 left-10">___</span>}
           </div>
         </div>
       </div>

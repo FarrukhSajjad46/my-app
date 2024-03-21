@@ -15,4 +15,8 @@
 
   /* resume > education > html */
 
+  /* Tailwind Custom Class */
+.font-calibri {
+    font-family: 'Calibri', sans-serif;
+  }
   
