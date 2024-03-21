@@ -20,7 +20,7 @@ const ResumeWindow: React.FC<ResumeWindowProps> = ({
   return (
     <div className="flex resume-container">
       <div className="w-64 h-screen window">
-        <div className="p-16 pt-48 text-center  font-bold fixed  headings">
+        <div className="p-16 pt-48 text-center  font-bold fixed headings">
           <div
             className={`py-2 cursor-pointer relative heading ${selectedTab === 'experience' ? 'active' : ''}`}
             onClick={() => handleTabClick('experience')}
