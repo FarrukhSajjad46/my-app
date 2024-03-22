@@ -17,7 +17,7 @@ const page = () => {
           <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
           <Image src="/admin.png" alt="WEB DESIGN" width={24} height={24} />
           </div>
-          <h2 className="text-lg font-medium title-font mb-2 ">Web Development</h2>
+          <h2 className="text-lg font-medium title-font mb-2 ">WEB DEVELOPMENT</h2>
           <p className="leading-relaxed text-base "> Our web development services are tailored to bring your digital vision to life with stunning and functional websites and web applications. From conceptualization and design to development and deployment, we offer end-to-end solutions to meet your unique business needs. Our team of experienced developers specializes in crafting responsive, user-friendly websites using the latest technologies and best practices. Whether you need a simple portfolio site, an e-commerce platform, or a complex web application, we&apos;re here to turn your ideas into reality and deliver exceptional digital experiences that captivate your audience and drive results.</p>
         </div>
       </div>
@@ -26,7 +26,7 @@ const page = () => {
           <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
               <Image src="/admin.png" alt="WEB DESIGN" width={24} height={24} />
           </div>
-          <h2 className="text-lg font-medium title-font mb-2">Mobile Development</h2>
+          <h2 className="text-lg font-medium title-font mb-2">MOBILE DEVELOPMENT</h2>
           <p className="leading-relaxed text-base">With our mobile development services, we empower businesses and entrepreneurs to harness the power of mobile technology and reach their target audience wherever they go. Whether you need a native iOS or Android app, a cross-platform solution, or a progressive web app, our team has the expertise to bring your mobile app ideas to fruition. From initial concept and design to development and deployment, we work closely with you to create intuitive, feature-rich mobile applications that engage users and drive growth. With a focus on user experience, performance, and scalability, our mobile development services are designed to help you stand out in the competitive app market and achieve your business objectives.</p>
         </div>
       </div>
@@ -35,7 +35,7 @@ const page = () => {
           <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
              <Image src="/admin.png" alt="WEB DESIGN" width={24} height={24} />
           </div>
-          <h2 className="text-lg font-medium title-font mb-2">Graphics Designing</h2>
+          <h2 className="text-lg font-medium title-font mb-2">GRAPHIC DESIGN</h2>
           <p className="leading-relaxed text-base"> Our graphics designing services are dedicated to helping businesses and brands make a lasting impression with visually stunning and impactful designs. Whether you need a new logo, branding materials, marketing collateral, or digital artworks, our team of talented designers is here to bring your ideas to life. From concept development and visual identity creation to print and digital design, we offer a wide range of graphics designing services to meet your specific needs. With a keen eye for detail, creativity, and technical expertise, we strive to deliver designs that not only look great but also effectively communicate your message and elevate your brand image. Let us help you leave a lasting impression and stand out in today&apos;s crowded marketplace with our professional graphics designing services.</p>
         </div>
       </div>
