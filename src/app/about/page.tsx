@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import welcome from '/Users/Farrukh Sajjad/Desktop/portfolio/my-app/public/pics/welcome.jpg';
 
 const About: React.FC = () => {
   return (
@@ -10,7 +9,9 @@ const About: React.FC = () => {
         <div className="max-w-sm">
           <Image
             alt="Mountains"
-            src={welcome}
+            src="/welcome"
+            width={500}
+            height={500}
             className="w-full h-auto rounded-3xl"
           />
         </div>
