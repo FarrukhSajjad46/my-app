@@ -1,7 +1,30 @@
-import React from 'react';
+"use client"
+import React, { useEffect } from 'react';
 import Image from 'next/image';
 
 const About: React.FC = () => {
+  const downloadCV = () => {
+    const link = document.createElement('a');
+    link.href = '/cvrequest.jpg';
+    link.download = 'cvrequest.jpg';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
+  useEffect(() => {
+    const button = document.querySelector('.download-cv-button');
+    if (button) {
+      button.addEventListener('click', downloadCV);
+    }
+
+    return () => {
+      if (button) {
+        button.removeEventListener('click', downloadCV);
+      }
+    };
+  }, []); // Empty dependency array to run the effect only once
+
   return (
     <div className="flex flex-col md:flex-row justify-around items-center md:px-10 py-10 font-calibri">
       {/* Left side image */}
@@ -39,13 +62,12 @@ const About: React.FC = () => {
         </p>
         
         {/* Button with color and hover effect */}
-        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded download-cv-button">
           Download Cv
         </button>
       </div>
     </div>
   );
 };
-
 
 export default About;
