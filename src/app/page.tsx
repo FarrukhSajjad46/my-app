@@ -5,11 +5,7 @@ const page: React.FC = () => {
 
   return (
     <div
-      className="bg-cover bg-center h-screen flex justify-center items-center font-calibri "
-      style={{
-        backgroundImage: `url('pics/home2.jpg')`,
-      }}
-    >
+      className="bg-cover bg-center h-screen flex justify-center items-center font-calibri ">
       <div className="text-center text-white">
         <h1 className="text-4xl font-bold mb-4">Welcome to My Portfolio</h1>
         <p className="text-lg mb-4">Explore and enjoy my work!</p>
